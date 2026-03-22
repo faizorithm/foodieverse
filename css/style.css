@@ -1,4 +1,3 @@
-
 @font-face{
   font-family:'AnotherShabby';
   src:url("anothershabby.ttf");
@@ -234,6 +233,6 @@ footer{
 
 @media (min-width: 1025px){
   .mySlides img{
-    height:250px;
+    height:350px;
   }
 }
