@@ -201,12 +201,17 @@ footer{
 }
 
 @media (max-width:768px){
-
-#myLinks{
-  display:none;
+#myLinks {
+  display: none;  
   flex-direction:column;
   text-align:center;
+  width: 100%;
 }
+
+#myLinks.open {
+  display: flex;   
+}
+
 
 .icon{
   display:block;
@@ -235,3 +240,4 @@ footer{
   width:90%;
 }
 }
+
