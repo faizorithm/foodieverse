@@ -226,9 +226,9 @@ footer{
   height:55px;
 }
 
-@media (min-width: 1025px){
+@media (min-width: 1024px){
   .mySlides img{
-    height: 400px;
+    height: 500px;
   }
 }
 .contact-container{
