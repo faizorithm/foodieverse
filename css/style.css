@@ -79,7 +79,7 @@ h1{
 
 
 .slideshow-container{
-  max-width:1000px;
+  max-width:1200px;
   margin: auto;
   margin-bottom: 30px;
   width:90%;
@@ -228,7 +228,7 @@ footer{
 
 @media (min-width: 1024px){
   .mySlides img{
-    height: 500px;
+    height: 650px;
   }
 }
 .contact-container{
