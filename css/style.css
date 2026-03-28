@@ -46,10 +46,11 @@ h1{
   display:flex;
   justify-content:center;
   align-items:center;
+  gap:25px;
 }
 
 #myLinks li{
-  margin:0 25px;
+  margin:0;
 }
 
 #myLinks a{
@@ -267,4 +268,21 @@ footer{
 #cart p{
   font-family: 'Now';
   font-size: 15px;
+}
+#cart{
+  width:60%;
+  margin:30px auto 60px auto;
+  font-family:'Now';
+}
+#cartItems{
+  list-style: none;
+  padding:0;
+}
+#cartItems li{
+  margin-bottom:12px;
+  font-family: 'Now';
+}
+#cart p{
+  font-family: 'Now';
+  font-size:22px;
 }
