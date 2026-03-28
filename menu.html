@@ -1,5 +1,3 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,56 +26,86 @@
 
 
 <tr>
-    <th colspan="2">Starters</th>
+    <th colspan="3">Starters</th>
     </tr>
 <tr> <td>Lebanese Falafel</td>
-    <td>2</td></tr>
- <tr> <td>Indian Samosas</td>
-        <td>3</td></tr>
+    <td>2</td>
+    <td><button onclick="addToCart('Lebanese Falafel', 2)">Add</button></td>
+</tr>
+<tr> <td>Indian Samosas</td>
+    <td>3</td>
+    <td><button onclick="addToCart('Indian Samosas', 3)">Add</button></td>
+</tr>
 <tr> <td>Italian Soft Breadsticks (4)</td>
-    <td>6</td></tr>
+    <td>6</td>
+    <td><button onclick="addToCart('Italian Soft Breadsticks', 6)">Add</button></td>
+</tr>
 <tr> <td>Nepali Fusion Chili Momos (10) </td>
-    <td>10</td></tr>
+    <td>10</td>
+    <td><button onclick="addToCart('Nepali Fusion Chili Momos', 10)">Add</button></td>
+</tr>
 
 <tr>
-        <th colspan="2">Main Dishes</th>
+        <th colspan="3">Main Dishes</th>
         </tr>
 </tr>  
 <tr><td>Western Spicy Smashburger</td>
-    <td>6</td></tr> 
+    <td>6</td>
+    <td><button onclick="addToCart('Western Spicy Smashburger', 6)">Add</button></td>
+</tr> 
 <tr> <td>Japanese Shio Ramen </td>
-    <td>15</td></tr>
+    <td>15</td>
+    <td><button onclick="addToCart('Japanese Shio Ramen', 15)">Add</button></td>
+</tr>
 <tr> <td> Bengali Kacchi Biryani </td>
-    <td>17</td></tr> 
+    <td>17</td>
+    <td><button onclick="addToCart('Bengali Kacchi Biryani', 17)">Add</button></td>
+</tr>
 <tr><td>Mexican Cheesy Birria Pie</td>
-    <td>20</td></tr>  
+    <td>20</td>
+    <td><button onclick="addToCart('Mexican Cheesy Birria Pie', 20)">Add</button></td>
+</tr>
 <tr> <td>Turkish Grilled Kebab and Pilaf</td>
     <td>22</td>
-  
-
-
+    <td><button onclick="addToCart('Turkish Grilled Kebab and Pilaf', 22)">Add</button></td>
+</tr>
     <tr>
-        <th colspan="2">Desserts</th>
+        <th colspan="3">Desserts</th>
         </tr>
 
 
 <tr> <td>Turkish Baklava</td>
-    <td>3</td></tr>
+    <td>3</td>
+    <td><button onclick="addToCart('Turkish Baklava', 3)">Add</button></td>
+</tr>
 <tr> <td>Spanish Caramel Flan</td>
-    <td>4</td></tr>
+    <td>4</td>
+    <td><button onclick="addToCart('Spanish Caramel Flan', 4)">Add</button></td>
+</tr>
 <tr> <td>Bengali Rashmalai</td>
-        <td>5</td></tr>
-<tr> <td>English Chocolate Fudge Cake </td>
-    <td>6</td></tr>
+        <td>5</td>
+        <td><button onclick="addToCart('Bengali Rashmalai', 5)">Add</button></td>
+</tr>
+<tr><td>English Chocolate Fudge Cake </td>
+    <td>6</td>
+        <td><button onclick="addToCart('English Chocolate Fudge Cake', 6)">Add</button></td>
+</tr>
 <tr><td>South Korean Sweet Bingsu</td>
-        <td>10</td></tr>
+        <td>10</td>
+        <td><button onclick="addToCart('South Korean Sweet Bingsu', 10)">Add</button></td>
+<tr>
 
 
 </table>
-<footer>
+<div id="cart">
+    <h2> Add to Cart</h2>
+    <ul id="cartItems"></ul>
+    <p>Total: $ <span id= "total">0</span></p>
+    <button onclick="clearCart()">Clear cart</button>
+</div>
+    <footer>
 
-    <p>FoodieVerse</p>
-    
+    <p>FoodieVerse</p>   
     <p>Hours: Mon to Sun</p>
     <p>11:00 AM to 10:00 PM</p>    
     <div class="socials">
@@ -85,7 +113,8 @@
     <a href="#">Facebook</a>
     <a href="#">Twitter</a>
     </div>
-    
     </footer>
+    <script src="js/cart.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 </html>
