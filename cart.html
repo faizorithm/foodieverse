@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Restaurant Website</title>
+<link rel = "stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <div class="topnav">
+
+    <ul id="myLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+    
+      <li class="logo">
+        <img src="images/logo.png" alt="FoodieVerse">
+      </li>
+    
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cart.html">🛒(<span id = "cartCount">0</span>)</a></li>
+
+    </ul> 
+</div>
+<h1> Shopping Cart </h1>
+        <div id="cart">
+            <h2>Dishes</h2>
+            <ul id="cartItems"></ul>
+            <p>Total: <span id= "total">0</span></p>
+            <button onclick="clearCart()">Clear Cart</button>
+    </div>
+
+    <script src="js/cart.js"></script>
+
+<footer>
+    <p>FoodieVerse</p>
+    <p>Hours: Mon to Sun</p>
+    <p>11:00 AM to 10:00 PM</p>
+            
+    <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+    </div>   
+  </footer>
+    <script src="js/cart.js"></script>
+
+
+</body>
+</html>
