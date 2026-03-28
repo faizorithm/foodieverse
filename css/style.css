@@ -236,3 +236,35 @@ footer{
     height:350px;
   }
 }
+.menu-table button, 
+#cart button{
+  background-color:#3a2b28;
+  color:blanchedalmond;
+  font-family: 'Now';
+  padding:8px; 
+  border:none;
+  cursor:pointer;
+}
+.menu-table button:hover, 
+#cart button:hover{
+  background-color: #3a2b28;
+}
+.menu-cart-container{
+  width:90%;
+  margin: 40px auto;
+  display:flex;
+  justify-content: center;
+  gap: 40px;
+}
+.menu-table{
+  width: 65%;
+}
+#cart h2{
+  font-family: 'AnotherShabby';
+  font-size: 25px;
+  margin-top: 0;
+}
+#cart p{
+  font-family: 'Now';
+  font-size: 15px;
+}
